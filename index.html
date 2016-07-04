@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="application.css">
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="jquery-3.0.0.min.js"></script>
+<script src="./mapIcon.js"></script>
+<script src="./mapIconArray.js"></script>
+</head>
+
+<body>
+	<div id="main-content">
+		<div id="google-map"></div>
+		<div class="location-section">
+			<div class="photo-section">
+
+				<div class="photo-display">
+					<img src="./images/columbus_circle.jpg" class="current-photo"></img>
+					<div class="caption">
+						<p class="caption-text"></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="description-section">
+				<div class="description-background">
+					<div class="description-text">
+						Click on a map icon to learn more about the trip!
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script>
+function initMap() {
+	var mapCenter = new google.maps.LatLng(40.804393, -73.962312);
+
+  var map = new google.maps.Map(document.getElementById('google-map'), {
+    zoom: 16,
+    center: mapCenter,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+
+  // The custom mapIcon object contains the USGS image,
+  // the bounds of the image, and a reference to the map.
+  for (var i = 0; i < mapIcons.length; i++) {
+	  addMapIcon(mapIcons[i], map);
+  }
+}
+
+google.maps.event.addDomListener(window, 'load', initMap);
+</script>
+</html>
