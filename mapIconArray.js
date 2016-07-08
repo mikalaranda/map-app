@@ -110,6 +110,30 @@
   		photo: './images/columbus_circle.jpg',
   		caption: 'Columbus Circle',
   		description: 'This is Columbus Circle, where we went to Whole Foods and decided not to buy anything!'
-  	}
+  	},
+    { coordinates: {
+        lat: 40.793875, 
+        long: -73.962505
+      },
+      photo: './images/central_park_looking_map.jpg',
+      caption: 'Charting the course through Central Park',
+      description: 'Figuring out where to go'
+    },
+    { coordinates: {
+        lat: 40.779527, 
+        long: -73.969377
+      },
+      photo: './images/belvedere.jpg',
+      caption: 'Belvedere Castle',
+      description: 'Castle in the park!'
+    },
+    { coordinates: {
+        lat: 40.756915, 
+        long: -74.005594
+      },
+      photo: './images/highline_view.jpg',
+      caption: 'Highline Start',
+      description: 'Sunset view from the start of Highline'
+    }
   ];
 
