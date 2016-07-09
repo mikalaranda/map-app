@@ -120,8 +120,8 @@
       description: 'Figuring out where to go'
     },
     { coordinates: {
-        lat: 40.779527, 
-        long: -73.969377
+        lat: 40.779532, 
+        long: -73.968733
       },
       photo: './images/belvedere.jpg',
       caption: 'Belvedere Castle',
@@ -132,8 +132,155 @@
         long: -74.005594
       },
       photo: './images/highline_view.jpg',
-      caption: 'Highline Start',
-      description: 'Sunset view from the start of Highline'
+      caption: 'High Line Start',
+      description: 'Sunset view from the start of High Line'
+    },
+    { coordinates: {
+        lat: 40.779536, 
+        long: -73.969683
+      },
+      photo: './images/central_park_path.jpg',
+      caption: 'Heading down from Belvedere Castle',
+      description: 'Enchanted garden path down from Belvedere Castle. Moving up and out of Central Park, on to bigger and better things!'
+    },
+    { coordinates: {
+        lat: 40.768353, 
+        long: -73.981333
+      },
+      photo: './images/out_of_central_park.jpg',
+      caption: 'A fast break where we had breakfast',
+      description: 'After just having had some delicious oatmeal in the area for breakfast,' 
+      + ' the two adventurers find themselves back in Columbus Circle for a quick breather before '
+      + 'moving on to the downtown portion of Manhattan'
+    },
+    { coordinates: {
+        lat: 40.767402, 
+        long: -73.982417
+      },
+      photo: './images/down_8th.jpg',
+      caption: 'Street view of 8th St.',
+      description: 'Heading over to Broadway, but staring down 8th street for a sneak peek of how '
+      + 'much farther we had to go. The finish line looks like a long ways away from here...'
+    },
+    { coordinates: {
+        lat: 40.765657,
+        long: -73.982135
+      },
+      photo: './images/down_broadway_1.jpg',
+      caption: 'The beginning of Broadway',
+      description: 'Starting to make our way down Broadway, headed downtown. Visible from '
+      + 'the sign: 56 more blocks to go!'
+    },
+    { coordinates: {
+        lat: 40.763929, 
+        long: -73.983105
+      },
+      photo: './images/late_night_colbert.jpg',
+      caption: 'Late Night with Stephen Colbert',
+      description: 'Passing by Late Night with Stephen Colbert! Martina\'s definitely excited. '
+      + 'The Late Night sign is a friendly reminder that we\'re starting to lose sunlight...'
+      + 'better keep moving!'
+    },
+    { coordinates: {
+        lat: 40.758866, 
+        long: -73.984842
+      },
+      photo: './images/times_square.jpg',
+      caption: 'Cool...it\'s Times Square?',
+      description: 'Been here, done this before. Not passing through Times Square '
+      + 'as wide-eyed tourists at this point -- we\'ve been here plenty of times in past NY trips! '
+      + 'All we care about now is dodging the hordes of slow-walking tourists as we sprint towards our goal!' 
+    },
+    { coordinates: {
+        lat: 40.759092, 
+        long: -73.986942
+      },
+      photo: './images/hamilton.jpg',
+      caption: 'The line for Hamilton -- Good enough!',
+      description: 'Satisfied with just being able to see the line for the \"Musical of the Decade\".'
+    },
+    { coordinates: {
+        lat: 40.762571, 
+        long: -73.996350
+      },
+      photo: './images/salted_crack.jpg',
+      caption: '\"Salted Crack\" Ice Cream from Ample Hills Creamery',
+      description: 'Salted caramel ice cream with chocolate wafers mixed in. Suddenly, '
+      + 'the pain and fatigue all fade away as happier, cooler feelings take their place.'
+    },
+    { coordinates: {
+        lat: 40.757646, 
+        long: -74.003061
+      },
+      photo: './images/conf_center.jpg',
+      caption: 'Jacob K. Javits Convention Center',
+      description: 'The venue for New York Comic-Con'
+    },
+    { coordinates: {
+        lat: 40.753841, 
+        long: -74.006404
+      },
+      photo: './images/highline_1.jpg',
+      caption: 'Walking along High Line',
+      description: 'About a mile and half of urban greenery to look forward to!'
+    },
+    { coordinates: {
+        lat: 40.746145, 
+        long: -74.005598
+      },
+      photo: './images/highline_2.jpg',
+      caption: 'Blind Idealism',
+      description: 'Full quote: BLIND IDEALISM IS REACTIONARY SCARY DEADLY'
+    },
+    { coordinates: {
+        lat: 40.752277, 
+        long: -74.002778
+      },
+      photo: './images/highline_3.jpg',
+      caption: 'Who put this bench on the other side?',
+      description: 'It would be nice to take a seat on a bench after all '
+      + 'the walking and running we\'ve done, but I guess this one is more '
+      + 'for aesthetics.'
+    },
+    { coordinates: {
+        lat: 40.704540, 
+        long: -74.014379
+      },
+      photo: './images/battery_park.jpg',
+      caption: 'Are we actually there?!',
+      description: 'Still a bit in disbelief about how far we\'ve come, '
+      + 'Martina checks the Battery Park map to make sure we ended up '
+      + 'where we meant to end up.'
+    },
+    { coordinates: {
+        lat: 40.704632, 
+        long: -74.017156
+      },
+      photo: './images/pier_a.jpg',
+      caption: 'TBD',
+      description: 'TBD'
+    },
+    { coordinates: {
+        lat: 40.704722, 
+        long: -74.019115
+      },
+      photo: './images/finish_line.jpg',
+      caption: 'TBD',
+      description: 'TBD'
     }
+    // { coordinates: {
+    //     lat: 
+    //   },
+    //   photo: './images/highline_view.jpg',
+    //   caption: '',
+    //   description: ''
+    // },
+    // { coordinates: {
+    //     lat: 
+    //   },
+    //   photo: './images/highline_view.jpg',
+    //   caption: '',
+    //   description: ''
+    // },
   ];
 

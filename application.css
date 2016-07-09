@@ -1,5 +1,5 @@
 #main-content {
-	width: 1200px;
+	width: 1220px;
 	height: 700px;
 }
 
@@ -12,9 +12,9 @@
 
 .location-section {
 	background-color:#b9876b;
-	border-left: 5px solid white;
+	border-left: 15px solid white;
 
-    width: 44%;
+    width: 43%;
     height: 100%;
 	float: left;	
 }
