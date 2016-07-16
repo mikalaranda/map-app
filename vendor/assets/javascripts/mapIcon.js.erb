@@ -3,7 +3,7 @@
 //Belvedere Castle: 40.779463, -73.969250
 
 function addMapIcon(mapIcon, map) {
-  var markerImage = '/assets/butterfly_icon.png';
+  var markerImage = "<%= image_url "butterfly_icon.png" %>";
 
   var marker = new google.maps.Marker({
     position: {lat: mapIcon.coordinates.lat, lng: mapIcon.coordinates.long},
